@@ -63,16 +63,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-
-        <resources>
-            <resource>
-                <directory>${basedir}/src/main/dockerfile</directory>
-                <includes>
-                    <include>**</include>
-                </includes>
-                <targetPath>${basedir}/target</targetPath>
-            </resource>
-        </resources>
     </build>
 
 </project>
